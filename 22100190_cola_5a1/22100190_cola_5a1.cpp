@@ -95,9 +95,11 @@ int main() {
     Lista cola;
     char opcion;
 
-    cola.agregar(new Persona("juan", "lopez", 22100190, 21));
-    cola.agregar(new Persona("pedro", "lopez", 22100191, 21));
-    cola.agregar(new Persona("valentino", "lopez", 22100192, 21));
+    cola.agregar(new Persona("juan", "lopez", 22100191, 21));
+    cola.agregar(new Persona("pedro", "lopez", 22100192, 21));
+    cola.agregar(new Persona("valentino", "lopez", 22100193, 21));
+    cola.agregar(new Persona("pedro", "lopez", 22100194, 21));
+    cola.agregar(new Persona("valentino", "lopez", 22100195, 21));
 
     //menu
     while (true) {
